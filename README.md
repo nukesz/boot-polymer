@@ -1,6 +1,7 @@
 BootPolymer
 ==========
 [![Build Status](https://travis-ci.org/nukesz/boot-polymer.svg?branch=master)](https://travis-ci.org/nukesz/boot-polymer)
+[![Maintainability](https://api.codeclimate.com/v1/badges/27f0f6a97e57c028e027/maintainability)](https://codeclimate.com/github/nukesz/boot-polymer/maintainability)
 
 Spring Boot application using Polymer 2.0
 
