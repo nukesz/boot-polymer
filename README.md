@@ -1,4 +1,4 @@
-Boot-Polymer
+BootPolymer
 ==========
 [![Build Status](https://travis-ci.org/nukesz/boot-polymer.svg?branch=master)](https://travis-ci.org/nukesz/boot-polymer)
 
