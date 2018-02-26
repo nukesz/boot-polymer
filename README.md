@@ -7,12 +7,12 @@ This demo application demonstrates how to combine **spring boot** with the lates
 
 ### Build
 ```
-mvn clean install
+$ ./mvnw clean install
 ```
 
 ### Run the application
 ```
-mvn spring-boot:run
+$ ./mvnw spring-boot:run
 ```
 Open http://localhost:8080/ 
 
