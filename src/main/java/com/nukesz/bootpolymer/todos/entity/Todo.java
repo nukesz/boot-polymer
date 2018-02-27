@@ -1,7 +1,5 @@
 package com.nukesz.bootpolymer.todos.entity;
 
-
-
 public class Todo {
 
     private String description;

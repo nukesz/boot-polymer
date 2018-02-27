@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class BootPolymerApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(BootPolymerApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(BootPolymerApplication.class, args);
+    }
 }
