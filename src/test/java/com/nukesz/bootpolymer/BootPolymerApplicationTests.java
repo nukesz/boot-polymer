@@ -26,7 +26,8 @@ public class BootPolymerApplicationTests {
 
     @Test
     public void shouldReturnOKResponseWithTwoEntities() {
-        ResponseEntity<List> entity = testRestTemplate.getForEntity("http://localhost:" + port + "/todos", List.class);
+        String allTodosUrl = "http://localhost:" + port + "/resources/todos";
+        ResponseEntity<List> entity = testRestTemplate.getForEntity(allTodosUrl, List.class);
         then(entity.getStatusCode()).isEqualTo(HttpStatus.OK);
         then(entity.getBody()).hasSize(2);
     }
