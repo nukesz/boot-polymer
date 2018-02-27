@@ -4,6 +4,8 @@
     "polymer": "Polymer/polymer#^2.0.0"
   },
   "devDependencies": {
-    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0",
+    "iron-list": "PolymerElements/iron-list#^2.0.12",
+    "iron-ajax": "PolymerElements/iron-ajax#^2.1.2"
   }
 }

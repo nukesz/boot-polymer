@@ -1,0 +1,37 @@
+<link rel="import" href="../resources/bower_components/polymer/polymer-element.html">
+<link rel="import" href="../resources/bower_components/iron-list/iron-list.html">
+<link rel="import" href="../resources/bower_components/iron-ajax/iron-ajax.html">
+
+<dom-module id="todo-list">
+
+    <template>
+        <style>
+            :host {
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+            }
+
+            iron-list {
+                flex: 1 1 auto;
+            }
+        </style>
+        <iron-ajax auto url="http://localhost:8080/resources/todos" handle-as="json" last-response={{todos}}></iron-ajax>
+
+        <iron-list items="[[todos]]" as="todo">
+            <template>
+                <div>[[todo.description]]</div>
+            </template>
+        </iron-list>
+    </template>
+
+    <script>
+        class TodoList extends Polymer.Element {
+            static get is() {
+                return 'todo-list';
+            }
+        }
+        customElements.define(TodoList.is, TodoList);
+    </script>
+
+</dom-module>
